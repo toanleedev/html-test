@@ -5,36 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giới thiệu bản thân</title>
-  <style>
-    img {
-      display: block;
-      width: 200px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <h1>Giới thiệu bản thân</h1>
-    <img src="./toan-avatar.png" alt="toan-avatar">
-    <b>Giới thiệu</b>
-    <p>
-      Xin chào, mình tên là Lê Minh Toàn, 23 tuổi, quê quán Phú Yên và hiện tại đang sống và làm việc ở Đà Nẵng.
-      Công việc hiện tại là lập trình viên, mình làm cả frontend và backend.
-    </p>
-    <b>Danh sách sở thích</b>
-    <ul>
-      <li>Lập trình</li>
-      <li>Chụp ảnh</li>
-      <li>Chơi cầu lông</li>
-      <li>Đi du lịch</li>
-    </ul>
-    <b>Trang mạng xã hội</b>
-    <ul>
-      <li>Facebook: <a href="https://fb.com/minhtoan.dev">https://fb.com/minhtoan.dev</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/toan._.le/">https://www.instagram.com/toan._.le/</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/toanleminh/">https://www.linkedin.com/in/toanleminh/</a></li>
-    </ul>
+  <div class="container">
+    <h1 class="header">Giới thiệu bản thân</h1>
+    <div class="wrapper">
+      <img src="./toan-avatar.png" alt="toan-avatar" class="image">
+      <div class="">
+        <h2 class="title">Giới thiệu</h2>
+        <p class="content">
+          Xin chào, mình tên là Lê Minh Toàn, 23 tuổi, quê quán Phú Yên và hiện tại đang sống và làm việc ở Đà Nẵng.
+          Công việc hiện tại là lập trình viên, mình làm cả frontend và backend.
+        </p>
+        <h2 class="title">Sở thích</h2>
+        <ul class="list">
+          <li>Lập trình</li>
+          <li>Chụp ảnh</li>
+          <li>Chơi cầu lông</li>
+          <li>Đi du lịch</li>
+        </ul>
+        <h2 class="title">Trang mạng xã hội</h2>
+        <ul class="list">
+          <li>Facebook: <a class="link" href="https://fb.com/minhtoan.dev">https://fb.com/minhtoan.dev</a></li>
+          <li>Instagram: <a class="link"
+              href="https://www.instagram.com/toan._.le/">https://www.instagram.com/toan._.le/</a></li>
+          <li>LinkedIn: <a class="link"
+              href="https://www.linkedin.com/in/toanleminh/">https://www.linkedin.com/in/toanleminh/</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 

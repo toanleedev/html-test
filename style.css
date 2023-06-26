@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.image {
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  border: 1px solid #aaa;
+}
+
+.wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+}
+
+.content {
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.list {
+  list-style: circle;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.link {
+  word-break: break-word;
+}
+
+@media screen and (max-width: 767.98px) {
+  .header {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+}
